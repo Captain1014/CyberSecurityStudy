@@ -1,0 +1,35 @@
+# Offensive Security
+## Web Application Security
+* A database is used to store information
+- The web application will read the data about the products and their details from a database server.
+- A database server is responsible for many functions.
+- Suppose an attacker manages to exploit the web app and steal the user's databse.
+
+* You need a browser to access a web app
+
+* Main categories of common attacks against web app
+- Log in
+- Search for the product
+- Provide payment details
+
+* Identification and Authentication Failure
+- The audentication step is prone to different types of weaknesses.
+- Allowing the attacker to use brute force
+- Allowing the user to choose a weak password
+- Storing the users' passwords in plain text
+
+* Broken Access Control
+- Access control ensures that each user can only access files related to their role or work.
+
+* Injection
+- An injection attack refers to a vulnerability in the web app where the user can insert malicious code as part of their input.
+- the lack of proper validation and sanitization of the user's input.
+
+* Cryptographic Failures
+- Encryption ensures that no one can read the data without knowing the secret key.
+- Decryption converts a ciphertext back into the original cleartext using the secret key.
+- Sending sensitive data in clear text / using http instead of https
+- relying on a weak cryptographic algo.
+- using default or weak keys for cryptographic functions.
+
+
