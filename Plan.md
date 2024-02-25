@@ -2,7 +2,7 @@ Feb 2024 start
 Feb - March goals
 * Tryhackme easy level paths
   - Pre Security
-  - Intro to Cyber Security
+  - Intro to Cyber Security ✅ 2/24
   - Complete Beginner
   - Web Fundamentals
   - Security Engineer
