@@ -50,3 +50,77 @@
      - Summarize business impact analysis concepts
      - Explain risk management processes and concepts
      - Explain the privacy and sensitive data security concepts
+
+# Threats, Attacks, and Vulnerabilities
+* Malware
+  - Every malware will have a "propagation mechanism" and a "payload".
+# Propagation Mechanism
+The way that a malware object spreads
+# Payload
+The malicious action that the malware performs
+
+* Any malware object can carry any payload.
+* 3 malware types *
+  1. viruses: spread by human action -> user education
+  2. worms: spread by themselves -> update the system the most recent
+  3. Trojans: disguise themselves as beneficial programs -> application controls
+ 
+* RAT: Remote Access Trojans. Provide backdoors to hacked systems.
+
+* 4 Payload types *
+  1. Adware: Displays advertisements for the malware author
+     - changing the default search engine
+     - displaying pop-up advertisements
+     - replacing legitimate ads with other ads
+  2. Spyware: Gathers information
+     - Logging keystrokes
+     - Monitoring web browsing
+     - Searching hard drives and cloud storage
+  * PUPs: Potentially unwanted programs are slipped onto a system by other software installers
+  3. Ransomware: Blocks access until you pay
+  4. Cryptomalware: Steals compute capacity and Mines cryptocurrency
+# These are independent programs written by malware developers
+# But some are pieces of code inserted into other apps
+1. Backdoors: Provide workaround access 
+2. Logic Bombs: Deliver a triggered payload
+   
+* Preventing Malware *
+  - Antimalware software
+  - Security patches
+  - User education
+
+* Advanced malware
+  1. Rootkits: Escalate user privileges
+  2. Fileless Viruses: Remain in memory
+
+* Botnets: collections of infected machines
+  - IRC is a common command and control mechanism 
+
+* Fileless viruses often store themselves to maintain persistence in 
+* Malicious script execution
+* A script is a sequence of instructions written in a programming language to automate our work
+  - Shell Scripts
+    * Bash is a shell scripting language that is used on Linux and Mac
+    * PowerShell for windows
+  
+  - Application Scripts
+    * Visual Basic for Applications - the most common macro
+    * Macros
+  - Programming Languages
+    * Python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
