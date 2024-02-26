@@ -109,18 +109,34 @@ The malicious action that the malware performs
   - Programming Languages
     * Python
 
+# Attack vectors: paths that attackers use to gain that initial access
+ * common attack vectors
+   - email
+   - social media
+   - usb
+   - cards
+   - direct access to systems
+   - wireless networks
+# Zero days and the advanced persistent threat
 
+# Threat intelligence allows teams to stay up to date on current risks
+  - educate itself about changes in the cybersecurity threat landscape, and adapt security controls based upon that information
+    * Open-Source intelligence
+       - Email address harvesting (searches for valid addresses)
+       - many security companies offer proprietary and closed-source threat intelligence solutions
 
+# Managing threat indicators
+  * Threat indicators: properties that describe a threat
+    - ip address
+    - malicious file signature
+    - only useful if we can share it among collaborators
+    - Cyber Observable eXpression (CybOX): provides the schema that we can use to classify different threats
+    - Structured Threat Information eXpression (STIX): represent them
+    - Trusted AUtomated eXchanged of Indicator Information (TAXII)
+    - OpenIOC
+    - generate and consume threat indicators in the same format
+    - by automating
+      
+# Intelligence sharing
 
-
-
-
-
-
-
-
-
-
-
-  
 
