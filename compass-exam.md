@@ -132,7 +132,8 @@ Flattery: praising the target to gain their trust
  Worm
  Trojan
  Spam
-Previous 
+Previous
+
 
 
 
