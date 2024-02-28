@@ -135,7 +135,128 @@ Flattery: praising the target to gain their trust
 Previous
 
 
+# exam 2
+1. What is a PUP? (Select 3 answers)
+* PUP(Potentially Unwanted Program)
+* AV: Antivirus software, 백신 프로그램
+ A type of computer program not explicitly classified as malware by AV software: While it may not be considered malicious, it often exhibits undesirable behavior.
+ A type of software that may adversely affect the computer's security and performance, compromise user's privacy, or display unsolicited ads
+An app downloaded and installed with the user's consent
 
+2.  Which type of malware resides only in RAM?
+ Rootkit
+ Fileless virus
+ Backdoor
+ Logic bomb
+파일리스 바이러스는 하드 드라이브에 흔적을 남기지 않고 컴퓨터 메모리(RAM)에서만 작동하는 악성 코드 유형입니다. 그들은 소프트웨어나 운영 체제의 취약점을 악용하여 악성 코드를 시스템 메모리에 직접 주입하므로 일반적으로 디스크의 파일을 검사하는 기존 바이러스 백신 소프트웨어를 사용하여 탐지하고 제거하기가 어렵습니다. 파일리스 바이러스는 명령을 실행하거나, 데이터를 훔치거나, 메모리에서 직접 기타 악의적인 활동을 수행할 수 있어 특히 은밀하고 위험합니다.
 
+3. What is the function of a C2 server?
+ Spam distribution: 스팸 배포란 일반적으로 이메일을 통해 원치 않는 대량 메시지가 유포되는 것을 의미합니다. 일부 맬웨어 감염으로 인해 시스템이 스팸 배포에 사용되는 경우가 있지만 C2 서버의 주요 기능은 특별히 스팸 배포를 위한 것이 아닙니다. 그러나 C2 서버에 의해 제어되는 봇넷 내의 손상된 장치는 잠재적으로 스팸 이메일을 보내도록 지시받을 수 있습니다.
+
+ Botnet control: C2(명령 및 제어) 서버는 봇넷을 관리하고 제어하는 ​​데 사용됩니다. 봇넷은 악의적인 행위자의 통제를 받는 손상된 컴퓨터 또는 장치의 네트워크입니다. C2 서버는 감염된 장치에 명령을 내려 DDoS(분산 서비스 거부) 공격 실행, 스팸 이메일 전송, 데이터 도용, 악성코드 추가 확산 등 다양한 작업을 수행하도록 지시합니다. C2 서버는 봇넷 활동을 조정하고 조정하는 데 매우 중요하며 사이버 범죄자 활동의 핵심 구성 요소입니다.
+ 
+ Authentication, Authorization, and Accounting (AAA): AAA는 일반적으로 사용자 인증, 권한 부여 및 계정에 대한 정책을 시행하여 컴퓨터 리소스에 대한 액세스를 제어하는 ​​프레임워크를 나타냅니다. AAA 서버는 네트워크 보안, 특히 사용자 액세스 관리에서 중요한 역할을 하지만 C2 서버와는 다릅니다. C2 서버는 사용자 인증 및 접근 제어 관리보다는 봇넷 제어에 중점을 두고 있습니다.
+ 
+ Penetration testing: 침투 테스트에는 실제 공격을 시뮬레이션하여 컴퓨터 시스템, 네트워크 또는 애플리케이션의 보안을 평가하는 작업이 포함됩니다. 이는 취약점을 식별하고 보안 조치의 효과를 평가하는 데 도움이 됩니다. 조직의 보안 상태를 평가하기 위해 침투 테스트 중에 C2 서버를 시뮬레이션 공격에 사용할 수 있지만 C2 서버의 주요 기능은 침투 테스트를 위한 것이 아닙니다. 대신, 악의적인 행위자가 손상된 장치를 제어하는 ​​데 사용됩니다.
+
+5.  Which of the following applies to a collection of intermediary compromised systems that can be used as a platform for a DDoS attack?
+ Botnet
+ Intranet: a private network that is restricted to an organization or a specific group of users. It is used for internal communication, collaboration, and sharing of resources within the organization.
+ Honeynet
+ Extranet: a private network that allows controlled access to specific external users or organizations. It extends the capabilities of an organization's intranet to selected external users.
+
+6. Which of the following is an example of cryptomalware?
+   Ransomeware 🤝 Cryptomalware
+
+9. Which of the following is an example of spyware?
+ Keylogger
+ Vulnerability scanner
+ Computer worm
+ Packet sniffer: a tool used to capture and analyze network traffic. it can intercept and log data packets as they pass through a network interface.
+
+11. A collection of software tools used by a hacker to mask intrusion and obtain administrator-level access to a computer or computer network is known as:
+ Rootkit: 해커가 자신의 존재를 숨기면서 무단으로 액세스하기 위해 사용하는 도구 모음
+ Spyware
+ Backdoor: 보안 우회하는 방법
+ Trojan
+
+12.  Which of the following refers to an undocumented (and often legitimate) way of gaining access to a program, online service, or an entire computer system?
+ Logic bomb
+ Trojan horse
+ Rootkit
+ Backdoor
+
+13.  A short list of commonly used passwords tried against large number of user accounts is a characteristic feature of:
+ Replay attack: interception and retransmission of data transmitted between two parties
+ Dictionary attack: a type of brute-force attack 일치하는 단어를 찾을 때까지 다양한 조합을 시도, 하나 이상의 계정에 대한 비밀번호를 찾는다. 
+ Spraying attack: a type of brute-force attack / small number passwords against large number.  A short list of commonly used passwords tried against large number of user accounts is a characteristic feature of  단일 계정에 대해 서로 다른 비밀번호를 시도하는 사전 공격과 달리 스프레이 공격은 여러 계정에 걸쳐 동일한 비밀번호를 사용합니다. 
+ Birthday attack: cryptographic attack that exploits the math of probability to find collisions in hash functions
+
+14.  Which password attack bypasses account-lockout policies?
+ Birthday attack
+ Spraying attack: 스프레이 공격에는 다수의 사용자 계정에 대해 일반적으로 사용되는 소수의 암호를 시도하는 작업이 포함됩니다. 계정당 몇 번의 시도만 이루어지기 때문에 일반적으로 단일 계정에 대한 로그인 시도가 일정 횟수 실패하면 실행되는 계정 잠금 정책에 의해 감지되지 않는 경우가 많습니다.
+ Dictionary attack
+ Replay attack
+
+15. Which password attack takes advantage of a predefined list of words?
+ Birthday attack
+ Replay attack
+ Dictionary attack
+ Brute-force attack
+
+16.  One of the measures for bypassing the failed logon attempt account lockout policy is to capture any relevant data that might contain the password and brute force it offline.
+ True
+ False
+
+17.  An attack against encrypted data that relies heavily on computing power to check all possible keys and passwords until the correct one is found is known as:
+ Replay attack
+ Brute-force attack
+ Dictionary attack
+ Birthday attack
+
+18. Rainbow tables are lookup tables used to speed up the process of password guessing.
+ True
+ False
+
+19. Which of the following refers to the contents of a rainbow table entry?
+ Hash/Password
+ IP address/Domain name
+ Username/Password
+ Account name/Hash
+
+20. In cryptography, the term "Plaintext" is used to describe data in an unencrypted form.
+ True
+ False
+
+21. Due to added functionality in its plug, malicious USB cable can be used for:
+ GPS tracking
+ Capturing keystrokes
+ Sending and receiving commands
+ Delivering and executing malware
+ Any of the above
+
+22. Which of the following terms is used to describe the theft of personal data from a payment card?
+ Pivoting: move laterally through a network after gaining initial access
+ Skimming
+ Phishing
+ Bluejacking
+
+23. The practice of making an unauthorized copy of a payment card is referred to as:
+ Rooting
+ Cloning
+ Replication
+ Copying
+
+24. An AI feature that enables it to accomplish tasks based on training data without explicit human instructions is called:
+ API: a set of protocols, tools that allow different software app to communicate with each other
+ ML: 머신 러닝은 시스템이 명시적으로 프로그래밍하지 않고도 경험을 통해 학습하고 개선할 수 있도록 하는 인공 지능의 하위 집합을 의미합니다. ML 알고리즘은 대규모 데이터세트의 패턴을 분석하고 학습하므로 AI 시스템이 명시적인 사람의 지시 없이 훈련 데이터를 기반으로 예측이나 결정을 내릴 수 있습니다.
+ RAD: Rapid Application Development.신속한 프로토타입 제작과 반복적인 개발 주기를 강조하는 소프트웨어 개발 방법론
+VR
+
+25. Which cryptographic attack relies on the concepts of probability theory?
+ KPA: Known plaintext Attack
+ Brute-force
+ Dictionary
+ Birthday:  생일 공격은 확률 수학, 특히 생일 역설을 활용하여 해시 함수에서 충돌을 찾는 암호화 공격입니다. 생일 역설은 23명으로 구성된 그룹에서 두 사람이 생일이 같을 확률이 50% 이상이라는 것입니다. 이 공격은 이 확률을 활용하여 철저한 검색 방법보다 해시 함수에서 충돌을 더 효율적으로 찾습니다. 따라서 생일 공격은 확률 이론의 개념에 의존합니다.
 
 
