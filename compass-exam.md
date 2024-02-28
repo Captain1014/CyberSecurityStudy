@@ -259,4 +259,8 @@ VR
  Dictionary
  Birthday:  생일 공격은 확률 수학, 특히 생일 역설을 활용하여 해시 함수에서 충돌을 찾는 암호화 공격입니다. 생일 역설은 23명으로 구성된 그룹에서 두 사람이 생일이 같을 확률이 50% 이상이라는 것입니다. 이 공격은 이 확률을 활용하여 철저한 검색 방법보다 해시 함수에서 충돌을 더 효율적으로 찾습니다. 따라서 생일 공격은 확률 이론의 개념에 의존합니다.
 
+# exam 3
+1. A situation where a cryptographic hash function produces two different digests for the same data input is referred to as a hash collision.
+ True
+ False
 
