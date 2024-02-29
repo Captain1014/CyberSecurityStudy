@@ -6,7 +6,7 @@ Feb - March goals
   - Complete Beginner
   - Web Fundamentals
   - Security Engineer
-  - CompTIA Pentest +
+  - CompTIA security+
   - SOC Level 1
  
 Apr goals
