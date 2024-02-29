@@ -263,4 +263,15 @@ VR
 1. A situation where a cryptographic hash function produces two different digests for the same data input is referred to as a hash collision.
  True
  False
+해시 충돌은 암호학적 해시 함수가 동일한 입력 데이터에 대해 두 개의 다른 다이제스트(해시)를 생성할 때 발생하는 상황을 말합니다. 그러나 안전한 암호학적 해시 함수의 경우 이러한 충돌을 찾는 것이 계산상 불가능해야 합니다.
+
+3.  Which of the following facilitate(s) privilege escalation attacks? (Select all that apply)
+* privilege escalation attacks 권한 상승 공격
+  
+ System/application vulnerability: 시스템이나 응용 프로그램의 취약점을 악용하여 권한 상승 공격 달성
+ Principle of least authority: 최소한의 권한만 부여하는 것.
+ Social engineering techniques: 신뢰를 속여 권한을 얻음
+ Mandatory Access Control (MAC): 강제 액세스 제어. 사용자에게 할당된 권한을 제어하는 방법
+ System/application misconfiguration: 시스템이나 응용 프로그램의 잘못된 구성
+
 
