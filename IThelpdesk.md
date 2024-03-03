@@ -173,6 +173,34 @@ Notepad++ install
 check if's secure
 run as admin
 
+# End User training
+- Learn how to talk to non-technical users
+
+# How to create successful user training
+
+# Management Tools for help desk staff
+## Ticketing systems inventory demo
+device inventory
+create a new environment
+enter device data
+
+download a collection agent
+
+## Malware best practices
+windows defender
+virus and threat protection
+quick scan
+virus and threat protection setting
+protection history
+
+## Remote control tools
+quick assist
+
+## Active dir tools for user management
+active directory
+
+
+
 
 
 
