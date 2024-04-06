@@ -199,10 +199,37 @@ quick assist
 ## Active dir tools for user management
 active directory
 
+## Microsoft Intune
+# Cloud Management with Microsoft Intune
+* What is configuration manager?
+  - Managed all types of endpoints(desktops, laptops)
+  - Links to cloud services
+    * Virtual Machine Management
+    * Application Delivery
+    * Device Management
+  - Manages updates
+  - Endpoint protection
+  - Compliance and Settings
+  - Client monitoring
+  - Asset intelligence
+  - Inventory and reporting
+
+* Configuration Manager preparation
+  - Hierarchy Decision
+    ? Stand-alone primary site
+      - All devices can be managed in one location
+      - Simplified administrative overhead
+      - Simplified client site assignment
+      - Eliminates possible lag
+    ? Central administration with child sides
+      - Upgrade from stand-alone sites
+      - Required when using multi-sites
+      - Supports up to 25 primary sites
+      - Permanent and cannot be downgraded
 
 
 
-
+  
 
 
 
